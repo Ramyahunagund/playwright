@@ -1,0 +1,4 @@
+1 Navigate to GitHub website
+2 Found the logo by CSS Selector
+3 Found Sign in by text Selector
+4 Found text by xpath Selector
