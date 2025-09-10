@@ -75,10 +75,11 @@ jobs:
         run: |
           git config --global user.email "ramyahunagund307@gmail.com"
           git config --global user.name "Ramyahunagund"
-          git clone --branch gh-pages https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ramyahunagund307/Playwright.git gh-pages
+          git clone --branch gh-pages https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Ramyahunagund/playwright.git gh-pages
           rm -rf gh-pages/*
           cp -r allure-report/* gh-pages/
           cd gh-pages
           git add .
           git commit -m "Update Allure report"
           git push origin gh-pages
+
